@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <?php include('config/header.php'); ?>
-  </head>
-  <body class="nav-md">
-        <?php include('config/dash.php'); ?>
-        <!-- page content -->
-        <div class="right_col" role="main">
-         
-         
+<?php include('include/header.php'); ?>
+    <body>
+        <!-- START PAGE CONTAINER -->
+        <div class="page-container">
+            <?php include('include/dash.php'); ?>
+           
         </div>
-        <!-- /page content -->
-        <?php include('config/footer.php'); ?>
-  </body>
+        <!-- END PAGE CONTAINER -->
+        <?php include('include/footer.php'); ?>
+    </body>
 </html>
+
+
+
+
+
+
